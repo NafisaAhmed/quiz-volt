@@ -24,7 +24,8 @@ function App() {
           element: <QuestionAnswer></QuestionAnswer>
         }
       ]
-    }
+    },
+    { path: '/*', element: <div className='text-center'>This route not found: 404</div> }
   ]);
   return (
     <div>
