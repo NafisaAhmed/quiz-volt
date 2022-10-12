@@ -14,7 +14,7 @@ const Statistics = () => {
                 }
                 return singleQuestion;
             });
-            console.log(totalData);
+            // console.log(totalData);
             setTotal(totalData);
         })
     return (
