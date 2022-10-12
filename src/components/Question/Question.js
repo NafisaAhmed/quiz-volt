@@ -13,7 +13,7 @@ const Question = ({ quiz }) => {
         <div className='text-center drop-shadow-2xl my-10 md:mx-auto mx-2 bg-slate-100 md:w-8/12 p-5'>
             <div className='flex md:mx-44'>
                 <h1 className='mt-5 text-violet-700 font-bold'>Quiz: {question.replace(/(<([^>]+)>)/ig, '')}</h1>
-                <button onClick={notify} className='ml-12 my-5'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
+                <button onClick={notify} className='ml-12 my-5 text-violet-700'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
             </div>
             <form action="">
                 <div className='grid grid-cols-2 md:px-24'>
