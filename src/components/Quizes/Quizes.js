@@ -9,7 +9,7 @@ const Quizes = () => {
     return (
         <div>
             <h1 className='text-3xl my-10 font-bold text-center'>Select your Quiz</h1>
-            <div className='flex mt-10'>
+            <div className='md:flex mt-10 grid grid-cols-1 mx-20 gap-4 md:gap-0 md:mx-2'>
                 {
                     quizes.map(quiz => <Quiz
                         key={quiz.id}
